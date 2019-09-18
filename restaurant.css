@@ -1,16 +1,25 @@
-.nav--list > li {
-    color: red;
-    display: inline;
-    background-color: black;
-	text-decoration: none;
-	border: 0.2rem solid red;
-	border-radius: 1rem;
-	padding: 0.5rem;
-	margin: 4rem;
+.box {
+	display: flex;
+}
+.mafiaoza--logo {
+	height: auto;
+    max-height: 100px;
+    width: auto;
+    max-width: 100%;
 }
 
+.nav--list {
+	display: flexbox;
+	justify-content: flex-end;
+}
+
+.nav--list > li {
+    color: black;
+	list-style: none;
+	}
+
 .nav--list > li > a {
-    color: red;
+	color: black;
 }
 
 h1 {
