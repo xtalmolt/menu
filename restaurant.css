@@ -23,6 +23,7 @@
 
 .nav--list > li > a {
 	color: black;
+	font-weight: bold;
 	text-decoration-line: none;
 }
 
@@ -51,6 +52,48 @@ h1 {
 
 .menu--items {
     list-style: none;
+}
+
+.locations {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	background-color: rgb(44, 46, 46);
+	border: .1rem solid black;
+	text-align: center;
+}
+
+.nashville {
+	background-color: darkred;
+	text-decoration-line: none;
+	list-style: none;
+	width: 600px;
+	border: .1rem solid black;
+	padding: 15px;
+}
+
+.franklin {
+	background-color: darkred;
+	text-decoration-line: none;
+	list-style: none;
+	width: 600px;
+	border: .1rem solid black;
+	padding: 15px;
+}
+
+.information {
+	list-style: none;
+	justify-content: space-evenly;
+	align-content: center;
+}
+
+.locationdetails {
+	list-style: none;
+	background-color: black;
+	border: .1rem solid white;
+	width: 300px;
+	align-items: center;
+
 }
 
 .social--links__items > li {
