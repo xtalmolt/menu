@@ -66,9 +66,13 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
+	margin: 0rem;
+	border: .1rem solid black;
+	padding: 0rem;
 }
 .locations {
 	display: flex;
+	justify-content: space-evenly;
 	list-style: none;
 	border: .1rem solid black;
 	text-align: center;
@@ -81,7 +85,7 @@ h1 {
 	align-self: flex-start;
 	background-color: darkred;
 	list-style: none;
-	width: 600px;
+	width: 630px;
 	border: .1rem solid black;
 	padding: 15px;
 }
@@ -90,7 +94,7 @@ h1 {
 	align-self: flex-end;
 	background-color: darkred;
 	list-style: none;
-	width: 600px;
+	width: 630px;
 	border: .1rem solid black;
 	padding: 15px;
 }
@@ -106,12 +110,29 @@ h1 {
 
 .locationdetails {
 	list-style: none;
+	align-self: center;
 	background-color: black;
 	border: .1rem solid white;
 	width: 300px;
 	padding: 10px;
 	margin: 10px;
 	}
+
+.name {
+	font-weight: bolder;
+	color: darkred;
+	text-align: center;
+}
+.ny {
+	font-weight: bolder;
+	color: silver;
+	text-align: center;
+
+.description {
+	color: black;
+	text-align: center;
+}
+}
 
 .social--links__items > li {
     color: red;
