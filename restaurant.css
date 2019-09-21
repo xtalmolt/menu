@@ -62,6 +62,11 @@ h1 {
     list-style: none;
 }
 
+.location-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
 .locations {
 	display: flex;
 	list-style: none;
